@@ -1,22 +1,35 @@
 import UIKit
 
 class DealCell: UITableViewCell {
+  
   static let reuseIidentifier = "DealCell"
   
+  private let models: [Model] = []
+	
   @IBOutlet weak var instrumentNameLabel: UILabel!
   @IBOutlet weak var priceLabel: UILabel!
   @IBOutlet weak var amountLabel: UILabel!
   @IBOutlet weak var sideLabel: UILabel!
-  
-  override func awakeFromNib() {
+  @IBOutlet weak var dataLabel: UILabel!
+	
+	override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+		
+		
+
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
-
+	
+	func configure(for viewModel: Model) {
+		
+		instrumentNameLabel.text = "\(viewModel.instrumentName)"
+		priceLabel.text = "\(viewModel.price)"
+		amountLabel.text = "\(viewModel.amount)"
+		sideLabel.text = viewModel.side.buy
+		//sideLabel.text = viewModel.side.sell
+		dataLabel.text = viewModel.dateModifier
+	 }
 }

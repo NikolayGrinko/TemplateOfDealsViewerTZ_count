@@ -7,15 +7,16 @@
 
 import Foundation
 
-struct Model {
-  let id: Int64
-  let dateModifier: Date
-  let instrumentName: String
-  let price: Double
-  let amount: Double
-  let side: Side
-  
-  enum Side: CaseIterable {
-	case sell, buy
-  }
+struct Model: Codable {
+	let id: Int64
+	let dateModifier: String
+	let instrumentName: String
+	let price: Double
+	let amount: Double
+	let side: Side
+	
+	struct Side: Codable {
+		let sell, buy: String
+		
+	}
 }

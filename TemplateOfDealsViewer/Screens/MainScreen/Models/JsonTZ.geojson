@@ -1,0 +1,119 @@
+[
+	{
+	   "id": 1,
+	   "dateModifier": "10:35:20, 20.01.2024",
+	   "instrumentName": "EUR/USD",
+	   "price": 76.0,
+	   "amount": 1000000,
+	   "side": {
+		   "sell": "sell",
+		   "buy": "buy"
+	   }
+	 },
+  {
+	 "id": 2,
+	"dateModifier": "11:25:30, 29.02.2024",
+	 "instrumentName": "GBP/USD",
+	 "price": 54.0,
+	 "amount": 1500000,
+	 "side": {
+		 "sell": "sell",
+		 "buy": "buy"
+	 }
+   },
+  {
+	 "id": 3,
+	 "dateModifier": "13:30:20, 10.01.2024",
+	 "instrumentName": "USD/JPY",
+	 "price": 32.0,
+	 "amount": 900000,
+	 "side": {
+		 "sell": "sell",
+		 "buy": "buy"
+	 }
+   },
+ 
+ {
+	"id": 4,
+	"dateModifier": "119:05:20, 23.02.2024",
+	"instrumentName": "USD/CHF",
+	"price": 38.5,
+	"amount": 1300000,
+	"side": {
+		"sell": "sell",
+		"buy": "buy"
+	}
+  },
+ 
+ {
+	"id": 5,
+	"dateModifier": "19:44:20, 13.02.2024",
+	"instrumentName": "USD/GBP",
+	"price": 26.0,
+	"amount": 2000000,
+	"side": {
+		"sell": "sell",
+		"buy": "buy"
+	}
+  },
+ 
+ {
+	"id": 6,
+	"dateModifier": "18:15:20, 07.02.2024",
+	"instrumentName": "USD/CAD",
+	"price": 36.0,
+	"amount": 2500000,
+	"side": {
+		"sell": "sell",
+		"buy": "buy"
+	}
+  },
+ 
+ {
+	"id": 7,
+	"dateModifier": "16:55:20, 14.02.2024",
+	"instrumentName": "USD/RUB",
+	"price": 41.0,
+	"amount": 4500000,
+	"side": {
+		"sell": "sell",
+		"buy": "buy"
+	}
+  },
+ 
+ {
+	"id": 8,
+	"dateModifier": "10:12:20, 11.02.2024",
+	"instrumentName":  "EUR/RUB",
+	"price": 59.0,
+	"amount": 1200000,
+	"side": {
+		"sell": "sell",
+		"buy": "buy"
+	}
+  },
+ 
+ {
+	"id": 9,
+	"dateModifier": "13:30:20, 02.02.2024",
+	"instrumentName": "CHF/RUB",
+	"price": 20.5,
+	"amount": 2400000,
+	"side": {
+		"sell": "sell",
+		"buy": "buy"
+	}
+  },
+ 
+ {
+	"id": 10,
+	"dateModifier": "12:12:20, 15.02.2024",
+	"instrumentName": "USD/AMD",
+	"price": 82.0,
+	"amount": 9000000,
+	"side": {
+		"sell": "sell",
+		"buy": "buy"
+	}
+  }
+ ]

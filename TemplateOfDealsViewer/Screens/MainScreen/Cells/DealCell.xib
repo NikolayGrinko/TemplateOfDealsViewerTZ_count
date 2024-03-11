@@ -18,7 +18,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13:43:56 09.12.2022" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKp-My-udd">
-                        <rect key="frame" x="20.000000000000007" y="20.000000000000007" width="125.66666666666669" height="124.66666666666669"/>
+                        <rect key="frame" x="20.000000000000007" y="58" width="125.66666666666669" height="76"/>
                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <color key="textColor" systemColor="systemGray2Color"/>
                         <nil key="highlightedColor"/>
@@ -54,16 +54,17 @@
                     </stackView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="0ns-HG-WvX" firstAttribute="top" secondItem="PKp-My-udd" secondAttribute="bottom" constant="8" symbolic="YES" id="6DQ-Db-PPH"/>
+                    <constraint firstItem="0ns-HG-WvX" firstAttribute="top" secondItem="PKp-My-udd" secondAttribute="bottom" constant="18.666666666666657" id="6DQ-Db-PPH"/>
                     <constraint firstAttribute="trailing" secondItem="0ns-HG-WvX" secondAttribute="trailing" constant="20" symbolic="YES" id="6rG-kE-n3o"/>
                     <constraint firstItem="0ns-HG-WvX" firstAttribute="leading" secondItem="AfB-Al-e9F" secondAttribute="leading" constant="20" symbolic="YES" id="OQ8-Bf-t7i"/>
-                    <constraint firstItem="PKp-My-udd" firstAttribute="top" secondItem="AfB-Al-e9F" secondAttribute="top" constant="20" symbolic="YES" id="epR-eU-x3R"/>
+                    <constraint firstItem="PKp-My-udd" firstAttribute="top" secondItem="AfB-Al-e9F" secondAttribute="top" constant="58" id="epR-eU-x3R"/>
                     <constraint firstAttribute="bottom" secondItem="0ns-HG-WvX" secondAttribute="bottom" constant="20" symbolic="YES" id="gNe-ga-MKD"/>
                     <constraint firstItem="PKp-My-udd" firstAttribute="leading" secondItem="EpE-ag-zgb" secondAttribute="leading" id="qXq-52-uYW"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="amountLabel" destination="VBu-ke-ruj" id="rRf-xU-bJE"/>
+                <outlet property="dataLabel" destination="PKp-My-udd" id="kz1-Sz-i9l"/>
                 <outlet property="instrumentNameLabel" destination="EpE-ag-zgb" id="zKp-K1-izM"/>
                 <outlet property="priceLabel" destination="Xde-6Q-Dmr" id="C6u-E8-nHA"/>
                 <outlet property="sideLabel" destination="d0m-X6-SKP" id="TL2-98-eIb"/>
